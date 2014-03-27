@@ -109,3 +109,4 @@ __6.__ Create tarball according to http://phantomjs.org/build.html :
 
 __7.__ The tarball can be found in the <code>./deploy</code> directory.
 
+__8.__ Possible issue that it loads pages very slow, solution is to disable IPv6 by adding <code>net.ipv6.conf.all.disable_ipv6 = 1</code> to <code>/etc/sysctl.conf</code>.
