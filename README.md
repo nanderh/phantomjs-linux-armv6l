@@ -1,6 +1,9 @@
 ## phantomjs-linux-armv6l
 
-PhantomJS 1.9, compiled on Raspberry PI (Raspbian "wheezy").
+PhantomJS compiled on Raspberry PI (Raspbian "wheezy").
+Stable 1.9.0 courtesy of aeberhardo.
+I will try and put up weekly builds of the phantomjs master branch.
+Building it yourself is straight forward but will take about 24 to 36 hours.
 
 PhantomJS is a headless WebKit with JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG. (http://phantomjs.org).
 
@@ -47,11 +50,12 @@ $ sudo fc-cache -rv
 
 PhantomJS has been built using the process described below.
 
-__1.__ According to http://phantomjs.org/build.html :
+__1.__ According to http://phantomjs.org/build.html
+(<code>libxft-dev</code> was added as suggested by https://groups.google.com/forum/#!msg/phantomjs/7AoQB_Q5GqM/w6HwGN7mJh8J)  :
 
 <pre>
 $ sudo apt-get update
-$ sudo apt-get install build-essential chrpath git-core libssl-dev libfontconfig1-dev
+$ sudo apt-get install build-essential chrpath git-core libssl-dev libfontconfig1-dev libxft-dev
 $ git clone git://github.com/ariya/phantomjs.git
 $ cd phantomjs
 $ git checkout 1.9
@@ -64,6 +68,7 @@ __2.__ Download additional 3rdparty files:
 $ mkdir src/qt/src/3rdparty/pixman && pushd src/qt/src/3rdparty/pixman && curl -O http://qt.gitorious.org/qt/qt/blobs/raw/4.8/src/3rdparty/pixman/README && curl -O http://qt.gitorious.org/qt/qt/blobs/raw/4.8/src/3rdparty/pixman/pixman-arm-neon-asm.h && curl -O http://qt.gitorious.org/qt/qt/blobs/raw/4.8/src/3rdparty/pixman/pixman-arm-neon-asm.S; popd
 </pre>
 
+Or get the pixman folder from this repo and place it in the <code>./src/qt/src/3rdparty</code> folder.
 
 __3.__ Open <code>./build.sh</code> and delete lines 11-34:
 
@@ -89,7 +94,7 @@ __4.__ Open <code>./src/qt/preconfig.sh</code> and add the option <code>' -no-pc
 
 
 __5.__ Start compilation:
-
+Important you use nohup as it allows you to logout of the ssh session without interupting the build process.
 <pre>
 $ nohup ./build.sh --confirm > build.sh.out 2> build.sh.err &
 </pre>
