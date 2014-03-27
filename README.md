@@ -93,7 +93,7 @@ __4.__ Open <code>./src/qt/preconfig.sh</code> and add the option <code>' -no-pc
 </pre>
 
 
-__5.__ Start compilation (Important you use nohup as it allows you to logout of the ssh session without interupting the build process.):
+__5.__ Start compilation (Important you use <code>nohup</code> as it allows you to logout of the ssh session without interupting the build process.):
 
 <pre>
 $ nohup ./build.sh --confirm > build.sh.out 2> build.sh.err &
