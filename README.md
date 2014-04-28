@@ -1,3 +1,5 @@
+I have noticed there were some fails after running the included test, results of the test can be found in the appropriate folder.
+
 ## phantomjs-linux-armv6l
 
 PhantomJS compiled on Raspberry PI (Raspbian "wheezy").
