@@ -52,7 +52,7 @@ $ sudo fc-cache -rv
 
 PhantomJS has been built using the process described below.
 
-__1.__ According to http://phantomjs.org/build.html
+__1.__ Prerequisites (PhantomJS 1.9) According to http://phantomjs.org/build.html
 (<code>libxft-dev</code> was added as suggested by https://groups.google.com/forum/#!msg/phantomjs/7AoQB_Q5GqM/w6HwGN7mJh8J)  :
 
 <pre>
@@ -63,6 +63,14 @@ $ cd phantomjs
 $ git checkout 1.9
 </pre>
 
+__1.__ Prerequisites (PhantomJS 2.0)
+Step 2 can be skipped as it is already included
+<pre>
+$ sudo apt-get update
+$ sudo apt-get install build-essential chrpath git-core libssl-dev libfontconfig1-dev libxft-dev g++ flex bison gperf ruby perl libsqlite3-dev libicu-dev libfreetype6 libpng-dev libjpeg-dev sqlite3 gperf libicu48
+$ git clone git://github.com/ariya/phantomjs.git
+$ cd phantomjs
+</pre>
 
 __2.__ Download additional 3rdparty files:
 
@@ -84,7 +92,7 @@ __3.__ Open <code>./build.sh</code> and delete lines 11-34:
 </pre>
 
 
-__4.__ Open <code>./src/qt/preconfig.sh</code> and add the option <code>' -no-pch'</code> to <code>QT_CFG</code> after <code>' -no-stl'</code>:
+__4.__ Open <code>./src/qt/preconfig.sh</code> and add the option <code>' -no-pch'</code> to <code>QT_CFG</code> after <code>' -no-stl'</code> (For PhantomJS 2 you can add this to line 105):
 
 <pre>
 .. ...
