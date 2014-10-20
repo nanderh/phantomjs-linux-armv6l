@@ -67,7 +67,7 @@ __1.__ Prerequisites (PhantomJS 2.0)
 Step 2 can be skipped as it is already included
 <pre>
 $ sudo apt-get update
-$ sudo apt-get install build-essential chrpath git-core libssl-dev libfontconfig1-dev libxft-dev g++ flex bison gperf ruby perl libsqlite3-dev libicu-dev libfreetype6 libpng-dev libjpeg-dev sqlite3 gperf libicu48
+$ sudo apt-get install build-essential chrpath git-core libssl-dev libfontconfig1-dev libxft-dev g++ flex bison gperf ruby perl libsqlite3-dev libicu-dev libfreetype6 libpng-dev libjpeg-dev sqlite3 gperf libicu48 python
 $ git clone git://github.com/ariya/phantomjs.git
 $ cd phantomjs
 </pre>
