@@ -65,6 +65,7 @@ $ git checkout 1.9
 
 __1.__ Prerequisites (PhantomJS 2.0)
 Step 2 can be skipped as it is already included
+The QT5 build will most likely fail because there is not enough memory so to solve this you'll have to set up the swap file with around 512MB of memory.
 <pre>
 $ sudo apt-get update
 $ sudo apt-get install build-essential chrpath git-core libssl-dev libfontconfig1-dev libxft-dev g++ flex bison gperf ruby perl libsqlite3-dev libicu-dev libfreetype6 libpng-dev libjpeg-dev sqlite3 gperf libicu48 python
