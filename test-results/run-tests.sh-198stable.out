@@ -1,0 +1,707 @@
+Started
+
+#0 phantom global object: should exist
+[32mPASS[0m
+#1 phantom global object: should have args property
+[32mPASS[0m
+#2 phantom global object: should have args as an array
+[32mPASS[0m
+#3 phantom global object: should have libraryPath property
+[32mPASS[0m
+#4 phantom global object: should have libraryPath as a string
+[32mPASS[0m
+#5 phantom global object: should not have an empty libraryPath
+[32mPASS[0m
+#6 phantom global object: should have scriptName property
+[32mPASS[0m
+#7 phantom global object: should have scriptName as a string
+[32mPASS[0m
+#8 phantom global object: should not have an empty scriptName
+[32mPASS[0m
+#9 phantom global object: should have outputEncoding property
+[32mPASS[0m
+#10 phantom global object: should have the default outputEncoding of UTF-8
+[32mPASS[0m
+#11 phantom global object: should have version property
+[32mPASS[0m
+#12 phantom global object: should return 1 as the major version
+[32mPASS[0m
+#13 phantom global object: should return 9 as the minor version
+[32mPASS[0m
+#14 phantom global object: should return 8 as the patch version
+[32mPASS[0m
+#15 phantom global object: should have 'injectJs' function
+[32mPASS[0m
+#16 phantom global object: should have 'exit' function
+[32mPASS[0m
+#17 phantom global object: should have 'cookiesEnabled' property, and should be 'true' by default
+[32mPASS[0m
+#18 phantom global object: should be able to get the error signal handler that is currently set on it
+[32mPASS[0m
+#19 WebPage constructor: should exist in window
+[32mPASS[0m
+#20 WebPage constructor: should be a function
+[32mPASS[0m
+#21 WebPage object: should be creatable
+[32mPASS[0m
+#22 WebPage object: should be able to get any signal handler that are currently set on it
+[32mPASS[0m
+#23 WebPage object: should be able to get any callback handler that are currently set on it
+[32mPASS[0m
+#24 WebPage object: should be able to get the error signal handler that is currently set on it (currently a special 1-off case)
+[32mPASS[0m
+#25 WebPage object: should pass variables from/to window.callPhantom/page.onCallback
+[32mPASS[0m
+#26 WebPage object: should pass result from/to window.confirm/page.onConfirm
+[32mPASS[0m
+#27 WebPage object: should pass result from/to window.prompt/page.onPrompt
+[32mPASS[0m
+#28 WebPage object: should have 'clipRect' property
+[32mPASS[0m
+#29 WebPage object: should have clipRect with height 0
+[32mPASS[0m
+#30 WebPage object: should have clipRect with left 0
+[32mPASS[0m
+#31 WebPage object: should have clipRect with top 0
+[32mPASS[0m
+#32 WebPage object: should have clipRect with width 0
+[32mPASS[0m
+#33 WebPage object: should have 'content' property
+[32mPASS[0m
+#34 WebPage object: should have 'content' as a string
+[32mPASS[0m
+#35 WebPage object: should have 'plainText' property
+[32mPASS[0m
+#36 WebPage object: should have 'plainText' as a string
+[32mPASS[0m
+#37 WebPage object: should have 'libraryPath' property
+[32mPASS[0m
+#38 WebPage object: should have 'libraryPath' as a string
+[32mPASS[0m
+#39 WebPage object: should have 'offlineStoragePath' property
+[32mPASS[0m
+#40 WebPage object: should have 'offlineStoragePath' as a string
+[32mPASS[0m
+#41 WebPage object: should have 'offlineStorageQuota' property
+[32mPASS[0m
+#42 WebPage object: should have objectName as 'WebPage'
+[32mPASS[0m
+#43 WebPage object: should have 'paperSize' property
+[32mPASS[0m
+#44 WebPage object: should have paperSize as an empty object
+[32mPASS[0m
+#45 WebPage object: should have 'scrollPosition' property
+[32mPASS[0m
+#46 WebPage object: should have scrollPosition with left 0
+[32mPASS[0m
+#47 WebPage object: should have scrollPosition with top 0
+[32mPASS[0m
+#48 WebPage object: should have 'settings' property
+[32mPASS[0m
+#49 WebPage object: should have non-empty settings
+[32mPASS[0m
+#50 WebPage object: should have 'customHeaders' property
+[32mPASS[0m
+#51 WebPage object: should have customHeaders as an empty object
+[32mPASS[0m
+#52 WebPage object: should have 'zoomFactor' property
+[32mPASS[0m
+#53 WebPage object: should have zoomFactor of 1
+[32mPASS[0m
+#54 WebPage object: should have 'event' property
+[32mPASS[0m
+#55 WebPage object: should have 'cookies' property
+[32mPASS[0m
+#56 WebPage object: should have 'viewportSize' property
+[32mPASS[0m
+#57 WebPage object: should have viewportSize with height 300
+[32mPASS[0m
+#58 WebPage object: should have viewportSize with width 400
+[32mPASS[0m
+#59 WebPage object: should have 'deleteLater' function
+[32mPASS[0m
+#60 WebPage object: should have 'destroyed' function
+[32mPASS[0m
+#61 WebPage object: should have 'evaluate' function
+[32mPASS[0m
+#62 WebPage object: should have 'initialized' function
+[32mPASS[0m
+#63 WebPage object: should have 'injectJs' function
+[32mPASS[0m
+#64 WebPage object: should have 'javaScriptAlertSent' function
+[32mPASS[0m
+#65 WebPage object: should have 'javaScriptConsoleMessageSent' function
+[32mPASS[0m
+#66 WebPage object: should have 'loadFinished' function
+[32mPASS[0m
+#67 WebPage object: should have 'loadStarted' function
+[32mPASS[0m
+#68 WebPage object: should have 'openUrl' function
+[32mPASS[0m
+#69 WebPage object: should have 'release' function
+[32mPASS[0m
+#70 WebPage object: should have 'close' function
+[32mPASS[0m
+#71 WebPage object: should have 'render' function
+[32mPASS[0m
+#72 WebPage object: should have 'resourceReceived' function
+[32mPASS[0m
+#73 WebPage object: should have 'resourceRequested' function
+[32mPASS[0m
+#74 WebPage object: should have 'resourceError' function
+[32mPASS[0m
+#75 WebPage object: should have 'uploadFile' function
+[32mPASS[0m
+#76 WebPage object: should have 'sendEvent' function
+[32mPASS[0m
+#77 WebPage object: should have 'childFramesCount' function
+[32mPASS[0m
+#78 WebPage object: should have 'childFramesName' function
+[32mPASS[0m
+#79 WebPage object: should have 'switchToChildFrame' function
+[32mPASS[0m
+#80 WebPage object: should have 'switchToMainFrame' function
+[32mPASS[0m
+#81 WebPage object: should have 'switchToParentFrame' function
+[32mPASS[0m
+#82 WebPage object: should have 'currentFrameName' function
+[32mPASS[0m
+#83 WebPage object: should have 'addCookie' function
+[32mPASS[0m
+#84 WebPage object: should have 'deleteCookie' function
+[32mPASS[0m
+#85 WebPage object: should have 'clearCookies' function
+[32mPASS[0m
+#86 WebPage object: should have 'setContent' function
+[32mPASS[0m
+#87 WebPage object: should set content and location
+[32mPASS[0m
+#88 WebPage object: should handle keydown event
+[32mPASS[0m
+#89 WebPage object: should handle keyup event
+[32mPASS[0m
+#90 WebPage object: should handle keypress event
+[32mPASS[0m
+#91 WebPage object: should handle keypress event with inputs
+[32mPASS[0m
+#92 WebPage object: should handle keypress event of string with inputs
+[32mPASS[0m
+#93 WebPage object: should handle key events with modifier keys
+[32mPASS[0m
+#94 WebPage object: should send proper key codes for text
+[32mPASS[0m
+#95 WebPage object: should handle keypress event of umlaut char with inputs
+[32mPASS[0m
+#96 WebPage object: should handle mousedown event
+[32mPASS[0m
+#97 WebPage object: should handle mouseup event
+[32mPASS[0m
+#98 WebPage object: should handle mousemove event
+[32mPASS[0m
+#99 WebPage object: should handle click event
+[32mPASS[0m
+#100 WebPage object: should handle doubleclick event
+[32mPASS[0m
+#101 WebPage object: should handle file uploads
+[32mPASS[0m
+#102 WebPage object: should support console.log with multiple arguments
+[32mPASS[0m
+#103 WebPage object: should not load any NPAPI plugins (e.g. Flash)
+[32mPASS[0m
+#104 WebPage object: reports unhandled errors
+[32mPASS[0m
+#105 WebPage object: doesn't report handled errors
+[32mPASS[0m
+#106 WebPage object: reports the sourceURL and line of errors
+[32mPASS[0m
+#107 WebPage object: reports the stack of errors
+[32mPASS[0m
+#108 WebPage object: reports errors that occur in the main context
+[32mPASS[0m
+#109 WebPage object: should set custom headers properly
+[32mPASS[0m
+#110 WebPage object: should process request body properly for POST
+[32mPASS[0m
+#111 WebPage object: should return properly from a 401 status
+[32mPASS[0m
+#112 WebPage object: should set valid cookie properly, then remove it
+[32mPASS[0m
+#113 WebPage object: should not set invalid cookies
+[32mPASS[0m
+#114 WebPage object: should add a cookie
+[32mPASS[0m
+#115 WebPage object: should delete a cookie
+[32mPASS[0m
+#116 WebPage object: should pass variables to functions properly
+[32mPASS[0m
+#117 WebPage object: should open url using secure connection
+[32mPASS[0m
+#118 WebPage object: should handle resource request errors
+[32mPASS[0m
+#119 WebPage object: should change a url request with an encoded query string
+[32mPASS[0m
+[31m#120 WebPage object: should able to abort a network request[0m
+[31mFAIL[0m
+#121 WebPage object: should fail on secure connection to url with bad cert
+[32mPASS[0m
+[31m#122 WebPage object: should change the url of the request[0m
+[31mFAIL[0m
+#123 WebPage object: should fire `onResourceReceived` callback when the resource error occured
+[32mPASS[0m
+#124 WebPage construction with options: should accept an opts object
+[32mPASS[0m
+#125 specifying clipRect: should have 'clipRect' property
+[32mPASS[0m
+#126 specifying clipRect: should have clipRect with height 100
+[32mPASS[0m
+#127 specifying clipRect: should have clipRect with left 10
+[32mPASS[0m
+#128 specifying clipRect: should have clipRect with top 20
+[32mPASS[0m
+#129 specifying clipRect: should have clipRect with width 200
+[32mPASS[0m
+#130 specifying onConsoleMessage: should have onConsoleMessage that was specified
+[32mPASS[0m
+#131 specifying onLoadStarted: should have onLoadStarted that was specified
+[32mPASS[0m
+#132 specifying onLoadFinished: should have onLoadFinished that was specified
+[32mPASS[0m
+#133 specifying scrollPosition: should have 'scrollPosition' property
+[32mPASS[0m
+#134 specifying scrollPosition: should have scrollPosition with left 1
+[32mPASS[0m
+#135 specifying scrollPosition: should have scrollPosition with top 2
+[32mPASS[0m
+#136 specifying timeout: should have timeout as 100
+[32mPASS[0m
+#137 specifying userAgent: should have userAgent as 'PHANTOMJS-TEST-USER-AGENT'
+[32mPASS[0m
+#138 specifying viewportSize: should have 'viewportSize' property
+[32mPASS[0m
+#139 specifying viewportSize: should have viewportSize with height 100
+[32mPASS[0m
+#140 specifying viewportSize: should have viewportSize with width 200
+[32mPASS[0m
+#141 WebPage switch frame of execution (deprecated API): should load a page full of frames
+[32mPASS[0m
+#142 WebPage switch frame of execution (deprecated API): should be able to detect frames at level 0
+[32mPASS[0m
+#143 WebPage switch frame of execution (deprecated API): should go down to a child frame at level 1
+[32mPASS[0m
+[31m#144 WebPage switch frame of execution (deprecated API): should go down to a child frame at level 2[0m
+[31mFAIL[0m
+#145 WebPage switch frame of execution (deprecated API): should go up to the parent frame at level 1
+[32mPASS[0m
+[31m#146 WebPage switch frame of execution (deprecated API): should go down to a child frame at level 2 (again)[0m
+[31mFAIL[0m
+#147 WebPage switch frame of execution (deprecated API): should go up to the main (top) frame at level 0
+[32mPASS[0m
+#148 WebPage switch frame of execution (deprecated API): should go down to (the other) child frame at level 1
+[32mPASS[0m
+#149 WebPage switch frame of execution: should load a page full of frames
+[32mPASS[0m
+#150 WebPage switch frame of execution: should be able to detect frames at level 0
+[32mPASS[0m
+#151 WebPage switch frame of execution: should go down to a child frame at level 1
+[32mPASS[0m
+[31m#152 WebPage switch frame of execution: should go down to a child frame at level 2[0m
+[31mFAIL[0m
+#153 WebPage switch frame of execution: should go up to the parent frame at level 1
+[32mPASS[0m
+[31m#154 WebPage switch frame of execution: should go down to a child frame at level 2 (again)[0m
+[31mFAIL[0m
+#155 WebPage switch frame of execution: should go up to the main (top) frame at level 0
+[32mPASS[0m
+#156 WebPage switch frame of execution: should go down to (the other) child frame at level 1
+[32mPASS[0m
+#157 WebPage switch frame of execution: should have top level as focused frame
+[32mPASS[0m
+#158 WebPage switch frame of execution: should move focus to level 1 frame
+[32mPASS[0m
+#159 WebPage switch frame of execution: should move focus to level 2 frame
+[32mPASS[0m
+#160 WebPage switch frame of execution: should move focus back to main frame
+[32mPASS[0m
+#161 WebPage switch frame of execution: should maintain focus but move current frame
+[32mPASS[0m
+#162 WebPage switch frame of execution: should change current frame to focused frame
+[32mPASS[0m
+#163 WebPage opening and closing of windows/child-pages: should call 'onPageCreated' every time a call to 'window.open' is done
+[32mPASS[0m
+#164 WebPage opening and closing of windows/child-pages: should correctly resize the 'pages' array if a page gets closed
+[32mPASS[0m
+#165 WebPage opening and closing of windows/child-pages: should resize the 'pages' array even more, when closing a page directly
+[32mPASS[0m
+#166 WebPage timeout handling: should call 'onResourceTimeout' on timeout
+[32mPASS[0m
+#167 WebPage closing notification/alerting: should call 'onClosing' when 'page.close()' is called
+[32mPASS[0m
+#168 WebPage closing notification/alerting: should call 'onClosing' when a page closes on it's own
+[32mPASS[0m
+#169 WebPage closing notification/alerting: closing propagation control: should close all 4 pages if parent page is closed (default value for 'ownsPages')
+[32mPASS[0m
+#170 WebPage closing notification/alerting: closing propagation control: should NOT close all 4 pages if parent page is closed, just parent itself ('ownsPages' set to false)
+[32mPASS[0m
+#171 WebPage 'onFilePicker': should be able to set the file to upload when the File Picker is invoked (i.e. clicking on a 'input[type=file]')
+[32mPASS[0m
+TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+
+  https://assets-cdn.github.com/assets/frameworks-0769ae9c0ddca1b3bf4923cc81e5624f5f0472a7e35efb691d1f8ac4a04c4dfb.js:29
+  https://assets-cdn.github.com/assets/frameworks-0769ae9c0ddca1b3bf4923cc81e5624f5f0472a7e35efb691d1f8ac4a04c4dfb.js:29
+ReferenceError: Can't find variable: $
+
+  https://assets-cdn.github.com/assets/github-8f3bcbb24e5e303f13482d42284586e125c50d90eaff12bfbf5ac7f17d496882.js:1
+  https://assets-cdn.github.com/assets/github-8f3bcbb24e5e303f13482d42284586e125c50d90eaff12bfbf5ac7f17d496882.js:1
+[31m#172 WebPage navigation events: should navigate to relative url using window.location[0m
+[31mFAIL[0m
+#173 WebPage loading/loadingProgress properties: should not be loading when page has just been created
+[32mPASS[0m
+TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+
+  https://assets-cdn.github.com/assets/frameworks-0769ae9c0ddca1b3bf4923cc81e5624f5f0472a7e35efb691d1f8ac4a04c4dfb.js:29
+  https://assets-cdn.github.com/assets/frameworks-0769ae9c0ddca1b3bf4923cc81e5624f5f0472a7e35efb691d1f8ac4a04c4dfb.js:29
+ReferenceError: Can't find variable: $
+
+  https://assets-cdn.github.com/assets/github-8f3bcbb24e5e303f13482d42284586e125c50d90eaff12bfbf5ac7f17d496882.js:1
+  https://assets-cdn.github.com/assets/github-8f3bcbb24e5e303f13482d42284586e125c50d90eaff12bfbf5ac7f17d496882.js:1
+#174 WebPage loading/loadingProgress properties: should be loading when 'page.open' is invoked
+[32mPASS[0m
+#175 WebPage loading/loadingProgress properties: should be completed when page is fully loaded
+[32mPASS[0m
+#176 WebPage render image: should render PDF file
+[32mPASS[0m
+#177 WebPage render image: should render PDF file with format option
+[32mPASS[0m
+#178 WebPage render image: should render GIF file
+[32mPASS[0m
+#179 WebPage render image: should render GIF file with format option
+[32mPASS[0m
+#180 WebPage render image: should render PNG file
+[32mPASS[0m
+#181 WebPage render image: should render PNG file with format option
+[32mPASS[0m
+#182 WebPage render image: should render JPEG file with quality option
+[32mPASS[0m
+#183 WebPage render image: should render JPEG file with format and quality option
+[32mPASS[0m
+#184 WebServer constructor: should not exist in window
+[32mPASS[0m
+#185 WebServer constructor: should be a function
+[32mPASS[0m
+#186 WebServer object: should be creatable
+[32mPASS[0m
+#187 WebServer object: should have objectName as 'WebServer'
+[32mPASS[0m
+#188 WebServer object: should have 'port' property
+[32mPASS[0m
+#189 WebServer object: should have port as string
+[32mPASS[0m
+#190 WebServer object: should not listen to any port by default
+[32mPASS[0m
+#191 WebServer object: should have 'listenOnPort' function
+[32mPASS[0m
+#192 WebServer object: should have 'newRequest' function
+[32mPASS[0m
+#193 WebServer object: should have 'close' function
+[32mPASS[0m
+[31m#194 WebServer object: should fail to listen to blocked ports[0m
+[31mFAIL[0m
+#195 WebServer object: should be able to listen to some port
+[32mPASS[0m
+[31m#196 WebServer object: should handle requests[0m
+[31mFAIL[0m
+[31m#197 WebServer object: should handle post requests ('Content-Type' = 'application/x-www-form-urlencoded')[0m
+[31mFAIL[0m
+[31m#198 WebServer object: should handle post requests ('Content-Type' = 'ANY')[0m
+[31mFAIL[0m
+[31m#199 WebServer object: should handle binary data[0m
+[31mFAIL[0m
+#200 Basic Files API (read, write, remove, ...): should be able to create and write a file
+[32mPASS[0m
+#201 Basic Files API (read, write, remove, ...): should be able to create (touch) an empty file
+[32mPASS[0m
+#202 Basic Files API (read, write, remove, ...): should be able to read content from a file
+[32mPASS[0m
+#203 Basic Files API (read, write, remove, ...): should be able to read specific number of bytes from a specific position in a file
+[32mPASS[0m
+#204 Basic Files API (read, write, remove, ...): should be able to read/write/append content from a file
+[32mPASS[0m
+#205 Basic Files API (read, write, remove, ...): should be able to copy a file
+[32mPASS[0m
+#206 Basic Files API (read, write, remove, ...): should be able to move a file
+[32mPASS[0m
+#207 Basic Files API (read, write, remove, ...): should be able to remove a (moved) file
+[32mPASS[0m
+#208 Basic Files API (read, write, remove, ...): should be able to remove a (copied) file
+[32mPASS[0m
+#209 Basic Files API (read, write, remove, ...): should be able to remove an empty file
+[32mPASS[0m
+#210 Basic Files API (read, write, remove, ...): should throw an exception when trying to open for read a non existing file
+[32mPASS[0m
+#211 Basic Files API (read, write, remove, ...): should throw an exception when trying to copy a non existing file
+[32mPASS[0m
+#212 Basic Files API (read, write, remove, ...): should be read/write utf8 text by default
+[32mPASS[0m
+#213 Basic Files API (read, write, remove, ...): should be read/write binary data
+[32mPASS[0m
+#214 Basic Files API (read, write, remove, ...): should be read/write binary data (shortcuts)
+[32mPASS[0m
+#215 Attributes Files API: should throw an exception when trying to read the size of a non existing file
+[32mPASS[0m
+#216 Attributes Files API: should return a null Date object when trying to read the last modified date of a non existing file
+[32mPASS[0m
+#217 Attributes Files API: should create temporary file 'temp-02.test' and writes some content in it
+[32mPASS[0m
+#218 Attributes Files API: should be able to read the size of a temporary file 'temp-02.test'
+[32mPASS[0m
+#219 Attributes Files API: should be able to read the Date on which a temporary file 'temp-02.test' was last modified
+[32mPASS[0m
+#220 Attributes Files API: should remove temporary file 'temp-02.test'
+[32mPASS[0m
+#221 Files and Directories API: should create a new temporary directory and change the Current Working Directory to it
+[32mPASS[0m
+#222 Files and Directories API: should create a file in the Current Working Directory and check it's absolute path
+[32mPASS[0m
+#223 Files and Directories API: should return to previous Current Working Directory and remove temporary directory
+[32mPASS[0m
+#224 Files and Directories API: should copy Content of the '/test/' Directory in a temporary directory, compare with the original and then remove
+[32mPASS[0m
+#225 Files and Directories API: should have readLink function
+[32mPASS[0m
+#226 fs.join(...): empty parts
+[32mPASS[0m
+#227 fs.join(...): one part (empty string)
+[32mPASS[0m
+#228 fs.join(...): one part (array)
+[32mPASS[0m
+#229 fs.join(...): empty string and one part
+[32mPASS[0m
+#230 fs.join(...): empty string and multiple parts
+[32mPASS[0m
+#231 fs.join(...): empty string and multiple parts with empty strings
+[32mPASS[0m
+#232 fs.join(...): multiple parts
+[32mPASS[0m
+#233 fs.join(...): multiple parts with empty strings
+[32mPASS[0m
+#234 fs.split(path): should split absolute path with trailing separator
+[32mPASS[0m
+#235 fs.split(path): should split absolute path without trailing separator
+[32mPASS[0m
+#236 fs.split(path): should split non-absolute path with trailing separator
+[32mPASS[0m
+#237 fs.split(path): should split non-absolute path without trailing separator
+[32mPASS[0m
+#238 fs.split(path): should split path with consecutive separators
+[32mPASS[0m
+#239 Tests Files API: should create some temporary file and directory
+[32mPASS[0m
+#240 Tests Files API: should confirm that test file and test dir exist, while the absent ones don't
+[32mPASS[0m
+#241 Tests Files API: should confirm that the temporary directory is infact a directory, while the absent one doesn't
+[32mPASS[0m
+#242 Tests Files API: should confirm that the temporary file is infact a file, while the absent one doesn't
+[32mPASS[0m
+#243 Tests Files API: should confirm that a relative path is not absolute, while an absolute one is
+[32mPASS[0m
+#244 Tests Files API: should confirm that temporary file is readable, writable and non-executable, while absent file is none of those
+[32mPASS[0m
+#245 Tests Files API: should confirm that temporary directory is readable, writable and executable, while absent dir is none of those
+[32mPASS[0m
+#246 Tests Files API: should confirm that neither temporary file/dir or absent file/dir are links
+[32mPASS[0m
+#247 Tests Files API: should delete the temporary directory and file
+[32mPASS[0m
+#248 System object: should exist
+[32mPASS[0m
+#249 System object: should have pid property
+[32mPASS[0m
+#250 System object: should have pid as a number
+[32mPASS[0m
+#251 System object: should have pid that is an integer
+[32mPASS[0m
+#252 System object: should have pid greater than 0
+[32mPASS[0m
+#253 System object: should have platform as string
+[32mPASS[0m
+#254 System object: should have platform set to 'phantomjs'
+[32mPASS[0m
+#255 System object: should have args as array
+[32mPASS[0m
+#256 System object: should have args with at least one item
+[32mPASS[0m
+#257 System object: should have args[0] as the this test runner
+[32mPASS[0m
+#258 System object: should have env as object
+[32mPASS[0m
+#259 System object: should have os as object
+[32mPASS[0m
+#260 System object: should have isSSLSupported as boolean
+[32mPASS[0m
+#261 System object: should have stdout as object
+[32mPASS[0m
+#262 System object: should have stderr as object
+[32mPASS[0m
+#263 System object: should have stdin as object
+[32mPASS[0m
+#264 WebKit: should construct date in mm-dd-yyyy format
+[32mPASS[0m
+#265 WebKit: should parse date in ISO8601 format (yyyy-mm-dd)
+[32mPASS[0m
+#266 WebKit: should not crash when failing to dirty lines while removing a inline.
+[32mPASS[0m
+#267 Module: has filename property containing its absolute path
+[32mPASS[0m
+#268 Module: has id property equal to filename
+[32mPASS[0m
+#269 Module: has dirname property containing absolute path to its directory
+[32mPASS[0m
+#270 Module: its require() can be used externally
+[32mPASS[0m
+#271 require(): loads 'webpage' native module
+[32mPASS[0m
+#272 require(): loads 'fs' native module
+[32mPASS[0m
+#273 require(): loads 'webserver' native module
+[32mPASS[0m
+#274 require(): loads 'system' native module
+[32mPASS[0m
+#275 require(): loads CoffeeScript modules
+[32mPASS[0m
+#276 require(): doesn't expose CoffeeScript
+[32mPASS[0m
+#277 require(): loads JSON modules
+[32mPASS[0m
+#278 require(): loads modules with specified extension
+[32mPASS[0m
+#279 require(): caches modules
+[32mPASS[0m
+#280 require(): supports cycles (circular dependencies)
+[32mPASS[0m
+#281 require(): has cache object attached containing cached modules
+[32mPASS[0m
+#282 require(): throws an error with appropriate message when module not found
+[32mPASS[0m
+#283 require(): maintains proper .stack when module not found
+[32mPASS[0m
+#284 require(): maintains proper .stack when an error is thrown in module's exports
+[32mPASS[0m
+#285 stub(): stubs modules in given context
+[32mPASS[0m
+#286 stub(): stubs modules in child context
+[32mPASS[0m
+#287 stub(): doesn't stub in parent context
+[32mPASS[0m
+#288 when invoked with a factory function: initializes the module lazily
+[32mPASS[0m
+#289 when invoked with a factory function: doesn't reinitialize the module each time it's required
+[32mPASS[0m
+#290 when the path is relative: loads modules from the same directory
+[32mPASS[0m
+#291 when the path is relative: loads modules from the parent directory
+[32mPASS[0m
+#292 when the path is relative: loads modules from a child directory
+[32mPASS[0m
+#293 when the path is relative: loads modules from a deeper directory
+[32mPASS[0m
+#294 when the path is relative: loads modules when path has intertwined '..'
+[32mPASS[0m
+#295 when the path is relative: loads modules when path has intertwined '.'
+[32mPASS[0m
+#296 when loading from node_modules: first tries to load from ./node_modules
+[32mPASS[0m
+#297 when loading from node_modules: loads from ../node_modules
+[32mPASS[0m
+#298 when loading from node_modules: loads from further up the directory tree
+[32mPASS[0m
+#299 when module is a directory: first tries to load the path from package.json
+[32mPASS[0m
+#300 when module is a directory: loads index.js if package.json not found
+[32mPASS[0m
+#301 when path is absolute: loads modules from the absolute path
+[32mPASS[0m
+#302 WebPage CJK support: Shift_JIS
+[32mPASS[0m
+#303 WebPage CJK support: EUC-JP
+[32mPASS[0m
+#304 WebPage CJK support: ISO-2022-JP
+[32mPASS[0m
+#305 WebPage CJK support: Big5
+[32mPASS[0m
+#306 WebPage CJK support: GBK
+[32mPASS[0m
+#307 WebPage CJK support: EUC-KR
+[32mPASS[0m
+
+WebPage object should able to abort a network request
+  
+  
+  
+  
+
+WebPage object should change the url of the request
+  
+  
+
+WebPage switch frame of execution (deprecated API) should go down to a child frame at level 2
+  
+  
+  
+  
+  
+
+WebPage switch frame of execution (deprecated API) should go down to a child frame at level 2 (again)
+  
+  
+  
+  
+  
+
+WebPage switch frame of execution should go down to a child frame at level 2
+  
+  
+  
+  
+  
+
+WebPage switch frame of execution should go down to a child frame at level 2 (again)
+  
+  
+  
+  
+  
+
+WebPage navigation events should navigate to relative url using window.location
+  
+
+WebServer object should fail to listen to blocked ports
+  
+  
+
+WebServer object should handle requests
+  
+  
+  
+  
+
+WebServer object should handle post requests ('Content-Type' = 'application/x-www-form-urlencoded')
+  
+  
+  
+  
+
+WebServer object should handle post requests ('Content-Type' = 'ANY')
+  
+  
+  
+  
+
+WebServer object should handle binary data
+  
+  
+  
+  
+
+Finished in 66.184 seconds
+
+[31m308 specs, 13 failures[0m
